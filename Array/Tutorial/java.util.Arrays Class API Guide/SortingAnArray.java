@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Arrays;
 
 public class SortingAnArray {
@@ -38,6 +39,16 @@ public class SortingAnArray {
         System.out.println("Original Array : " + Arrays.toString(floatArray));
         Arrays.sort(floatArray);
         System.out.println("Sorted Array : " + Arrays.toString(floatArray));
+
+        String[] strArray = { "abc", "cdf", "pqr" };
+        System.out.println("Original Array : " + Arrays.toString(strArray));
+        Arrays.sort(strArray);
+        System.out.println("Sorted Array : " + Arrays.toString(strArray));
+
+        LocalDate[] dates = { LocalDate.now(), LocalDate.of(2017, 12, 12) };
+        System.out.println("Original Array : " + Arrays.toString(dates));
+        Arrays.sort(dates);
+        System.out.println("Sorted Array : " + Arrays.toString(dates));
     }
 
 }
