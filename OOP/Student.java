@@ -3,11 +3,12 @@ import java.io.*;
 // import java.lang.reflect.InvocationTargetException;
 
 // public class Student implements Serializable {
-public class Student implements Cloneable {
-    private String name;
-    // private String name = "Ramesh";
-    private String college;
-    // private String college = "ABC";
+// public class Student implements Cloneable {
+public class Student {
+    // private String name;
+    private String name = "Ramesh";
+    // private String college;
+    private String college = "ABC";
 
     public Student() {
         super();
