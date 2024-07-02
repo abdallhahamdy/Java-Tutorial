@@ -9,7 +9,7 @@ public class Department {
 
     public Department(String name) {
         this.name = name;
-        this.employees = new ArrayList<>()
+        this.employees = new ArrayList<>();
     }
 
     public void addEmployee(Employee employee) {
