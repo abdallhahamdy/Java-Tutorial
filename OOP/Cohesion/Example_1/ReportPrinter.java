@@ -1,0 +1,7 @@
+package Cohesion.Example_1;
+
+public class ReportPrinter {
+    public void printEmployeeReport(Employee employee) {
+        System.out.println("Employee Report: " + employee.getName() + ", Salary: " + employee.getSalary());
+    }
+}
