@@ -1,4 +1,4 @@
-package Array.ReverseArrayInPlace;
+package Array.Program_1.ReverseArrayInPlace;
 
 public class ReverseArrayInPlace {
 
