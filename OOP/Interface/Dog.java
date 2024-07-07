@@ -1,4 +1,4 @@
-package Object.Interface;
+package Interface;
 
 public class Dog implements Animal, Pet {
     @Override

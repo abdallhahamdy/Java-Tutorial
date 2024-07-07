@@ -1,4 +1,4 @@
-package Object.Interface;
+package Interface;
 
 //public class InterfaceExample {
 //    public static void main(String[] args) {

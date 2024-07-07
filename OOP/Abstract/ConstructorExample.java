@@ -1,4 +1,4 @@
-package Object.Abstract;
+package Abstract;
 
 public class ConstructorExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Object.Interface;
+package Interface;
 
 @FunctionalInterface
 public interface Greeting {

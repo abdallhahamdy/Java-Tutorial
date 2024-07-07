@@ -1,4 +1,4 @@
-package Object.Abstract;
+package Abstract;
 
 public class Motorcycle extends Vehicle {
     public Motorcycle(String model) {

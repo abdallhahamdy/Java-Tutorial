@@ -1,4 +1,4 @@
-package Object.Abstract;
+package Abstract;
 
 public abstract class Animal {
 
