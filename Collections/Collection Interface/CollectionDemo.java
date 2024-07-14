@@ -83,12 +83,17 @@ public class CollectionDemo {
 //        boolean isAllRemoved = collection1.removeAll(collection2);
 //        System.out.println(isAllRemoved);  // Output: true
 
-        Collection<String> collection1 = new ArrayList<>();
-        Collection<String> collection2 = new ArrayList<>();
-        collection2.add("Hello");
-        collection1.add("Hello");
-        collection1.add("World");
-        boolean isRetained = collection1.retainAll(collection2);
-        System.out.println(isRetained);  // Output: true
+//        Collection<String> collection1 = new ArrayList<>();
+//        Collection<String> collection2 = new ArrayList<>();
+//        collection2.add("Hello");
+//        collection1.add("Hello");
+//        collection1.add("World");
+//        boolean isRetained = collection1.retainAll(collection2);
+//        System.out.println(isRetained);  // Output: true
+
+        Collection<String> collection = new ArrayList<>();
+        collection.add("Hello");
+        int size = collection.size();   // Output: 1
+        System.out.println(size);
     }
 }
