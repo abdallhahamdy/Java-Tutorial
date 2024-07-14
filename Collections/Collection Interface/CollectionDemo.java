@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.Spliterator;
 
 public class CollectionDemo {
 
@@ -91,9 +92,14 @@ public class CollectionDemo {
 //        boolean isRetained = collection1.retainAll(collection2);
 //        System.out.println(isRetained);  // Output: true
 
+//        Collection<String> collection = new ArrayList<>();
+//        collection.add("Hello");
+//        int size = collection.size();   // Output: 1
+//        System.out.println(size);
+
         Collection<String> collection = new ArrayList<>();
         collection.add("Hello");
-        int size = collection.size();   // Output: 1
-        System.out.println(size);
+        Spliterator<String> spliterator = collection.spliterator();
+        spliterator.forEachRemaining(System.out::println);    // Output: Hello
     }
 }
