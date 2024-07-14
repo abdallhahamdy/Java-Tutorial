@@ -5,23 +5,27 @@ public class CollectionDemo {
 
     public static void main(String[] args) {
 
-        Collection<String> fruitCollection = new ArrayList<>();
-        fruitCollection.add("banana");
-        fruitCollection.add("apple");
-        fruitCollection.add("mango");
-        System.out.println(fruitCollection);
+//        Collection<String> fruitCollection = new ArrayList<>();
+//        fruitCollection.add("banana");
+//        fruitCollection.add("apple");
+//        fruitCollection.add("mango");
+//        System.out.println(fruitCollection);
+//
+//        fruitCollection.remove("banana");
+//        System.out.println(fruitCollection);
+//
+//        System.out.println(fruitCollection.contains("apple"));
+//
+//        fruitCollection.forEach((element) -> {
+//            System.out.println(element);
+//        });
+//
+//        fruitCollection.clear();
+//
+//        System.out.println(fruitCollection);
 
-        fruitCollection.remove("banana");
-        System.out.println(fruitCollection);
-
-        System.out.println(fruitCollection.contains("apple"));
-
-        fruitCollection.forEach((element) -> {
-            System.out.println(element);
-        });
-
-        fruitCollection.clear();
-
-        System.out.println(fruitCollection);
+        Collection<String> collection = new ArrayList<>();
+        boolean isAdded = collection.add("Hello");
+        System.out.println(isAdded);
     }
 }
