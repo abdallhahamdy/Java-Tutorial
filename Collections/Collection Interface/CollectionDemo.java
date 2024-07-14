@@ -45,13 +45,17 @@ public class CollectionDemo {
 //        boolean contains = collection.contains("Hello");
 //        System.out.println(contains);
 
-        Collection<String> collection1 = new ArrayList<>();
-        Collection<String> collection2 = new ArrayList<>();
-        collection2.add("Hello");
-        collection2.add("World");
-        collection1.add("Hello");
-        collection1.add("World");
-        boolean containsAll = collection1.containsAll(collection2);
-        System.out.println(containsAll);    // Output: true
+//        Collection<String> collection1 = new ArrayList<>();
+//        Collection<String> collection2 = new ArrayList<>();
+//        collection2.add("Hello");
+//        collection2.add("World");
+//        collection1.add("Hello");
+//        collection1.add("World");
+//        boolean containsAll = collection1.containsAll(collection2);
+//        System.out.println(containsAll);    // Output: true
+
+    Collection<String> collection = new ArrayList<>();
+    boolean isEmpty = collection.isEmpty();
+        System.out.println(isEmpty);
     }
 }
