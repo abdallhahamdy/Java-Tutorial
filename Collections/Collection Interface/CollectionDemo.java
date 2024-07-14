@@ -35,9 +35,14 @@ public class CollectionDemo {
 //        boolean isAllAdded = collection1.addAll(collection2);
 //        System.out.println(isAllAdded);   // Output: true
 
+//        Collection<String> collection = new ArrayList<>();
+//        collection.add("Hello");
+//        collection.clear();
+//        System.out.println(collection.size()); // output: 0
+
         Collection<String> collection = new ArrayList<>();
         collection.add("Hello");
-        collection.clear();
-        System.out.println(collection.size()); // output: 0
+        boolean contains = collection.contains("Hello");
+        System.out.println(contains);
     }
 }
