@@ -59,11 +59,15 @@ public class CollectionDemo {
 //    boolean isEmpty = collection.isEmpty();
 //        System.out.println(isEmpty);
 
+//        Collection<String> collection = new ArrayList<>();
+//        collection.add("Hello");
+//        Iterator<String> iterator = collection.iterator();
+//        while(iterator.hasNext()) {
+//            System.out.println(iterator.next());  // Output: Hello
+//        }
+
         Collection<String> collection = new ArrayList<>();
         collection.add("Hello");
-        Iterator<String> iterator = collection.iterator();
-        while(iterator.hasNext()) {
-            System.out.println(iterator.next());  // Output: Hello
-        }
+        collection.parallelStream().forEach(System.out::println);   // Output: Hello
     }
 }
