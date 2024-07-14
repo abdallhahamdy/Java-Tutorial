@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class CollectionDemo {
 
@@ -54,8 +55,15 @@ public class CollectionDemo {
 //        boolean containsAll = collection1.containsAll(collection2);
 //        System.out.println(containsAll);    // Output: true
 
-    Collection<String> collection = new ArrayList<>();
-    boolean isEmpty = collection.isEmpty();
-        System.out.println(isEmpty);
+//    Collection<String> collection = new ArrayList<>();
+//    boolean isEmpty = collection.isEmpty();
+//        System.out.println(isEmpty);
+
+        Collection<String> collection = new ArrayList<>();
+        collection.add("Hello");
+        Iterator<String> iterator = collection.iterator();
+        while(iterator.hasNext()) {
+            System.out.println(iterator.next());  // Output: Hello
+        }
     }
 }
