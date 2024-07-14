@@ -97,9 +97,14 @@ public class CollectionDemo {
 //        int size = collection.size();   // Output: 1
 //        System.out.println(size);
 
-        Collection<String> collection = new ArrayList<>();
-        collection.add("Hello");
-        Spliterator<String> spliterator = collection.spliterator();
-        spliterator.forEachRemaining(System.out::println);    // Output: Hello
+//        Collection<String> collection = new ArrayList<>();
+//        collection.add("Hello");
+//        Spliterator<String> spliterator = collection.spliterator();
+//        spliterator.forEachRemaining(System.out::println);    // Output: Hello
+
+    Collection<String> collection = new ArrayList<>();
+    collection.add("Hello");
+    collection.stream().forEach(System.out::println);  // Output: Hello
+
     }
 }
