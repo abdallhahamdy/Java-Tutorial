@@ -24,8 +24,15 @@ public class CollectionDemo {
 //
 //        System.out.println(fruitCollection);
 
-        Collection<String> collection = new ArrayList<>();
-        boolean isAdded = collection.add("Hello");
-        System.out.println(isAdded);
+//        Collection<String> collection = new ArrayList<>();
+//        boolean isAdded = collection.add("Hello");
+//        System.out.println(isAdded);
+
+        Collection<String> collection1 = new ArrayList<>();
+        Collection<String> collection2 = new ArrayList<>();
+        collection2.add("Hello");
+        collection2.add("World");
+        boolean isAllAdded = collection1.addAll(collection2);
+        System.out.println(isAllAdded);   // Output: true
     }
 }
