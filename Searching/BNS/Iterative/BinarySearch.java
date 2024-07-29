@@ -1,3 +1,5 @@
+package Iterative;
+
 public class BinarySearch {
 
     public int binarySearchIteratively(int[] sortedArray, int key) {
