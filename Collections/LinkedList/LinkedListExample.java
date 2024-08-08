@@ -6,8 +6,7 @@ public class LinkedListExample {
         LinkedList<String> fruits = new LinkedList();
         fruits.add("Apple");
         fruits.add("Banana");
-        fruits.add("Mango");
-        System.out.println(fruits.size());
-
+        System.out.println(fruits.contains("Banana"));
+        System.out.println(fruits.contains("Mango"));
     }
 }
