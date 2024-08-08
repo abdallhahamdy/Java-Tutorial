@@ -6,6 +6,6 @@ public class LinkedListExample {
         LinkedList<String> fruits = new LinkedList();
         fruits.add("Apple");
         fruits.addAll(Arrays.asList("Banana", "Mango"));
-        System.out.println(fruits.get(1));
+        System.out.println(fruits.getFirst());
     }
 }
