@@ -7,11 +7,8 @@ public class LinkedListExample {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Mango");
-        fruits.remove(1);
-
+        fruits.removeFirst();
         System.out.println(fruits);
 
-        fruits.remove("Mango");
-        System.out.println(fruits);
     }
 }
