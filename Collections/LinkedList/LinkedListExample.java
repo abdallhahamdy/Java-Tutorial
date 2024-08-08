@@ -6,6 +6,7 @@ public class LinkedListExample {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Mango");
+        fruits.addFirst("Watermalon");
         System.out.println(fruits);
     }
 }
