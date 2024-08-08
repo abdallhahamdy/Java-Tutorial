@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.*;
 
 public class LinkedListExample {
     public static void main(String[] args) {
@@ -9,12 +6,8 @@ public class LinkedListExample {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Mango");
-        ListIterator<String> listIterator = fruits.listIterator();
-        while (listIterator.hasNext()) {
-            System.out.println(listIterator.next());
-        }
-        while (listIterator.hasPrevious()) {
-            System.out.println(listIterator.previous());
-        }
+        fruits.add("Orange");
+        List<String> subList = fruits.subList(1, 3);
+        System.out.println(subList);
     }
 }
