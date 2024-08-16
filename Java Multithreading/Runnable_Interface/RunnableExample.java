@@ -1,6 +1,6 @@
 package Runnable_Interface;
 
-class MyRunnable implements Runnable {
+class MyRunnable_1 implements Runnable {
 
     @Override
     public void run() {
@@ -16,7 +16,7 @@ class MyRunnable implements Runnable {
 }
 public class RunnableExample {
     public static void main(String[] args) {
-        MyRunnable myRunnable = new MyRunnable();
+        MyRunnable_1 myRunnable = new MyRunnable_1();
 
         Thread thread1 = new Thread(myRunnable);
         Thread thread2 = new Thread(myRunnable);
