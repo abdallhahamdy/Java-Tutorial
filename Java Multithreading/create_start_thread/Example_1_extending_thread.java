@@ -1,3 +1,5 @@
+package create_start_thread;
+
 public class Example_1_extending_thread extends Thread {
     @Override
     public void run() {
